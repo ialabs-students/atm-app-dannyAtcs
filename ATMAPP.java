@@ -98,7 +98,7 @@ public class ATMAPP {
 				// System.out.println("Remaining amount: " + amt);
 			}
 		}
-		if (amt >= 100 && amt <= 200) {
+		if (amt >= 100 ) {
 			hundred = amt / 100;
 			one100 = hundred;
 			if (arr[3] > hundred) {
